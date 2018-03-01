@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00D15018A6B8329A2E89C4CE /* Pods_Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D9336962D34B914B807172 /* Pods_Twitter.framework */; };
+		202CED94204847F400130305 /* HomeDatasourceController+navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202CED93204847F400130305 /* HomeDatasourceController+navBar.swift */; };
 		2041723820437D16001972AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041723720437D16001972AB /* AppDelegate.swift */; };
 		2041723F20437D16001972AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2041723E20437D16001972AB /* Assets.xcassets */; };
 		2041724220437D16001972AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2041724020437D16001972AB /* LaunchScreen.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202CED93204847F400130305 /* HomeDatasourceController+navBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDatasourceController+navBar.swift"; sourceTree = "<group>"; };
 		2041723420437D16001972AB /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2041723720437D16001972AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2041723E20437D16001972AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2070EC742044D5A200560524 /* HomeDatasourceController.swift */,
+				202CED93204847F400130305 /* HomeDatasourceController+navBar.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				8BF6355B2047C02B00F2CAB2 /* User.swift in Sources */,
 				2070EC7A2044DC2400560524 /* UserHeaderFooter.swift in Sources */,
 				2070EC752044D5A200560524 /* HomeDatasourceController.swift in Sources */,
+				202CED94204847F400130305 /* HomeDatasourceController+navBar.swift in Sources */,
 				2041724A20437F83001972AB /* HomeController.swift in Sources */,
 				8BF6355D2047CCD600F2CAB2 /* UserCell.swift in Sources */,
 			);

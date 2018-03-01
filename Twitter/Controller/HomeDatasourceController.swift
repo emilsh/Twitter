@@ -19,10 +19,6 @@ class HomeDatasourceController: DatasourceController {
         self.datasource = homeDatasource
     }
     
-    private func setupNavigationBarItems() {
-        
-    }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
