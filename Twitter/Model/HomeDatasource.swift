@@ -13,9 +13,11 @@ class HomeDatasource: Datasource {
     let users: [User] = {
         let brianUser = User(name: "Brian Voong", username: "@buildthatapp", bioText: "iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-C and build iOS apps!", profileImage: #imageLiteral(resourceName: "profile_image"))
 
-        let rayUser = User(name: "Ray Wenderlich", username: "@rwenderlich", bioText: "Ray Wenderlich is an iPhone developer and tweets on topics related to iPhone, software and gaming. Check out our conference.", profileImage: #imageLiteral(resourceName: "profile_image"))
+        let rayUser = User(name: "Ray Wenderlich", username: "@rwenderlich", bioText: "Ray Wenderlich is an iPhone developer and tweets on topics related to iPhone, software and gaming. Check out our conference.", profileImage: #imageLiteral(resourceName: "ray_profile_image"))
         
-        return [brianUser, rayUser]
+        let kindleCourseUser = User(name: "Kindle Course", username: "@kindlecourse", bioText: "The feature of Dynamic Cell Sizing based on its contents is very important in iOS Development.  Today, we'll look at how to achieve this effect with our UICollectionViewCell components based on the information that we have for each of our users.", profileImage: #imageLiteral(resourceName: "kindle_profile_image"))
+        
+        return [brianUser, rayUser, kindleCourseUser]
     }()
     
     override func footerClasses() -> [DatasourceCell.Type]? {
