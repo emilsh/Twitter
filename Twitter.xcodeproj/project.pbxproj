@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00D15018A6B8329A2E89C4CE /* Pods_Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D9336962D34B914B807172 /* Pods_Twitter.framework */; };
+		202B8D282049881A00F80E19 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B8D272049881A00F80E19 /* Tweet.swift */; };
 		202CED94204847F400130305 /* HomeDatasourceController+navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202CED93204847F400130305 /* HomeDatasourceController+navBar.swift */; };
 		2041723820437D16001972AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041723720437D16001972AB /* AppDelegate.swift */; };
 		2041723F20437D16001972AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2041723E20437D16001972AB /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202B8D272049881A00F80E19 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		202CED93204847F400130305 /* HomeDatasourceController+navBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDatasourceController+navBar.swift"; sourceTree = "<group>"; };
 		2041723420437D16001972AB /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2041723720437D16001972AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				2070EC7B2044DC3B00560524 /* HomeDatasource.swift */,
 				8BF6355A2047C02B00F2CAB2 /* User.swift */,
+				202B8D272049881A00F80E19 /* Tweet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2070EC7C2044DC3B00560524 /* HomeDatasource.swift in Sources */,
+				202B8D282049881A00F80E19 /* Tweet.swift in Sources */,
 				2041723820437D16001972AB /* AppDelegate.swift in Sources */,
 				8BF6355B2047C02B00F2CAB2 /* User.swift in Sources */,
 				8BC3EF6920490C5000E05420 /* TweetCell.swift in Sources */,
