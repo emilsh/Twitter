@@ -9,4 +9,6 @@ target 'Twitter' do
 
   pod 'LBTAComponents', '~> 0.1.9'
 
+  pod 'TRON', '~> 4.0'
+
 end

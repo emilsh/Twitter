@@ -1,12 +1,27 @@
 PODS:
+  - Alamofire (4.6.0)
   - LBTAComponents (0.1.9)
+  - SwiftyJSON (4.0.0)
+  - TRON (4.1.2):
+    - Alamofire (~> 4.5)
+    - TRON/SwiftyJSON (= 4.1.2)
+  - TRON/Core (4.1.2):
+    - Alamofire (~> 4.5)
+  - TRON/SwiftyJSON (4.1.2):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0)
+    - TRON/Core
 
 DEPENDENCIES:
   - LBTAComponents (~> 0.1.9)
+  - TRON (~> 4.0)
 
 SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   LBTAComponents: 9a5d314080d1f80208062ccc81a2d25225c5f572
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TRON: eafd3cfd30d264f7c775d0ac3a6cc5650bfd603a
 
-PODFILE CHECKSUM: 9215dcafea0cfb4737f4e484b2514ea2f16462d1
+PODFILE CHECKSUM: 8524bcb5c5cf42e2ee8134e7f0a403b35836c747
 
 COCOAPODS: 1.4.0
