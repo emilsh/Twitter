@@ -32,7 +32,6 @@ extension HomeDatasourceController {
         navSeparatorView.backgroundColor = UIColor(r: 230, g: 230, b: 230)
         view.addSubview(navSeparatorView)
         navSeparatorView.anchor(view.topAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 0.5)
-        
     }
     
     private func setupLeftNavItem() {
